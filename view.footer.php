@@ -5,7 +5,7 @@ $t_diff = $t_end-$t_start;
 ?>
       <div class='row-fluid'>
         <div class='span12 footer'>
-          <p>&copy; VHS <?php echo date('Y');?>.<br><?php echo date("Y-m-d H:i:s")." in ".$t_diff."s";?>.</p>
+          <p>&copy; Vancouver Hack Space <?php echo date('Y');?>.<br><?php echo date("Y-m-d H:i:s")." in ".$t_diff."s";?>.</p>
         </div>
       </div>
 
