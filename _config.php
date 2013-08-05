@@ -15,6 +15,7 @@ define('SITE_URL',"http://$domain_name/VHS");
 define('SITE_PATH',dirname(__FILE__));
 define("BASE_PATH",getcwd()."/");
 define('SITE_NAME',"VHS Admin");
+define('LEGAL_NAME','Vancouver Hack Space');
 
 define('PASSWORD_SALT','Q@#(RJasdfj8');
 
