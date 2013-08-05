@@ -1,6 +1,6 @@
 <?php
 //------------------------------------------------------------------------------
-// © 2011 dan@marginallyclever.com
+// Modify this section to customize your install 
 //------------------------------------------------------------------------------
 $t_start=microtime(true);
 $domain_name=$_SERVER['SERVER_NAME'];
@@ -14,7 +14,7 @@ define('DOMAIN_NAME',$_SERVER['SERVER_NAME']);
 define('SITE_URL',"http://$domain_name/VHS");
 define('SITE_PATH',dirname(__FILE__));
 define("BASE_PATH",getcwd()."/");
-define('SITE_NAME',"VHS");
+define('SITE_NAME',"VHS Admin");
 
 define('PASSWORD_SALT','Q@#(RJasdfj8');
 

@@ -21,7 +21,7 @@ if( !isset($_SESSION['account']) || $_SESSION['account']['id']==0 ) {
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>VHS Admin</title>
+    <title><?php echo SITE_NAME; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -52,7 +52,7 @@ if( !isset($_SESSION['account']) || $_SESSION['account']['id']==0 ) {
             <span class="icon-bar"></span>
           </a>
          
-          <a class="navbar-brand" href="<?php echo SITE_URL;?>/">VHS Admin</a>
+          <a class="navbar-brand" href="<?php echo SITE_URL;?>/"><?php echo SITE_NAME;?></a>
           <?php
           if(isset($_SESSION['account']) && $_SESSION['account']['id']!=0) {
             echo "<p class='navbar-text pull-right'>Signed in as <a href='".SITE_URL."/account/my_account' class='navbar-link'>".$_SESSION['account']['name']."</a></p>";
