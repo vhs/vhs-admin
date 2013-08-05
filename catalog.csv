@@ -1,0 +1,67 @@
+SKU,name,weight,image_quality,description_quality,video_quality,data_sheet_quality,bulk_purchase_qty,bulk_total_cost,bulk_import_fee,bulk_purchase_cost,unit_cost,MSRP,margin,supplier
+ELE-0001,5.5*2.1 female power plug,13,poor,poor,missing,missing,100,$0.40,$0.00,$40.00,$0.40,$1.00,$0.60,http://www.aliexpress.com/item/Free-shipping-100pcs-5-5x2-1-DC-Power-Cord-Pigtail-with-Female-Plug-2-1mm-camera/502696950.html
+ELE-0002,9v battery lead,5,poor,poor,missing,missing,100,$0.20,$0.00,$20.00,$0.20,$1.00,$0.80,http://www.aliexpress.com/item/Free-Shipping-I-Type-Can-Snap-On-9V-Battery-Clip-Connector-With-Lead-Wirefor-9v-Active/634408691.html
+ELE-0003,Small breadboard,35,poor,poor,missing,missing,10,$2.62,$0.00,$26.20,$2.62,$5.00,$2.38,http://www.aliexpress.com/item/Free-Shipping-10pcs-lot-goodquality-mini-Breadboard-83x55mm-Solderless-Prototype-Bread-board-wholesale/670874972.html
+ELE-0004,Arduino UNO R3,39,poor,poor,missing,missing,10,$20.00,$0.00,$200.00,$20.00,$30.00,$10.00,http://www.dhgate.com/new-arduino-uno-board-atmega328-bv072-cf/p-ff808081326ddb0e01326e68f3323c27.html#s1-11-null
+ELE-0005,"Pack of wires, precut, stripped, and folded",57,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0006,Photoresistor,0.1,poor,poor,missing,missing,100,$0.13,,$12.53,$0.13,$0.25,$0.12,http://www.dhgate.com/photoresistor-5mm-gl5537-ldr-photo-resistors/p-ff8080813ba85ade013bad0ce4ae0c3d.html#s1-1-null
+ELE-0007,Power Supply 12v2a,145,poor,poor,missing,missing,500,$3.16,,"$1,580.00",$3.16,$10.00,$6.84,http://www.dhgate.com/12v2a-power-supply/p-ff8080813be0c630013c42a74afb65e1.html#s1-3-null
+ELE-0008,Power Supply 9v1a,missing,missing,poor,missing,missing,100,$3.90,,$390.00,$3.90,$7.50,$3.60,http://www.dhgate.com/ac-100-240v-to-dc-9v-1a-1000ma-power-adapter/p-ff8080813a0719e1013a1206aa6a419f.html#s1-1-null
+ELE-0009,Resistor 10k,0.1,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0010,"el wire, pink",180,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0011,"el wire, yellow",180,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0012,"el wire, blue",180,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0013,"el wire, green",180,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0014,"el wire, orange",180,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0015,"el wire, red",180,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0016,5m el driver,33,poor,poor,missing,missing,,,,$0.00,#DIV/0!,,#DIV/0!,
+ELE-0017,medium breadboard,71,missing,poor,missing,missing,2,$6.36,,$12.72,$6.36,$12.00,$5.64,http://www.aliexpress.com/item/MB-102-830-points-Solderless-Prototype-Bread-board-kit-65-Flexible-jumper-wires-cables-wholesale/747134038.html
+ELE-0018,large breadboard,missing,missing,missing,missing,missing,1,$19.82,,$19.82,$19.82,$40.00,$20.18,http://www.aliexpress.com/item/Free-Shipping-Integrated-Bread-Board-Solderless-Breadboard-Prototype-Board-4-Bus-Test-Circuit-Board-Tie-Point/684132693.html
+ELE-0019,Arduino MEGA,missing,missing,missing,missing,missing,2,$15.00,,$30.00,$15.00,$40.00,$25.00,
+ELE-0020,Neopixel Digital RGB LED strip,missing,missing,ok,ok,missing,1,,,$0.00,$0.00,,$0.00,
+ELE-0021,JST connector pair,missing,missing,poor,missing,missing,10,$0.34,,$3.40,$0.34,$1.00,$0.66,
+ELE-0022,Power Supply 5v2a,missing,missing,missing,missing,missing,50,$3.00,,$150.00,$3.00,$8.00,$5.00,
+ELE-0023,1.5m USB cable,50,poor,poor,missing,missing,50,$1.48,$0.00,$74.00,$1.48,$3.00,$1.52,http://www.aliexpress.com/snapshot/216681143.html
+ELE-0024,50cm Servo Extension Cord,20,poor,poor,missing,missing,50,$0.00,$0.00,$0.00,$0.00,$3.00,$3.00,
+GIFT-0020,$20 gift certificate,0,missing,poor,none,none,1,$0.00,$0.00,$0.00,$0.00,$20.00,$20.00,
+GIFT-0050,$50 gift certificate,0,missing,poor,none,none,1,$0.00,$0.00,$0.00,$0.00,$50.00,$50.00,
+GIFT-0100,$100 gift certificate,0,missing,poor,none,none,1,$0.00,$0.00,$0.00,$0.00,$100.00,$100.00,
+KIT-0001,TV-B-Gone,19,poor,ok,poor,missing,13,$13.65,$0.00,$177.45,$13.65,$30.00,$16.35,
+KIT-0002,Adafruit motor shield,33,poor,ok,poor,missing,20,$13.65,$0.00,$273.00,$13.65,$30.00,$16.35,
+KIT-0003,DIY TV-B-Gone,19,poor,poor,poor,missing,13,$13.65,$0.00,$177.45,$13.65,$25.00,$11.35,
+KIT-0004,DIY Adafruit motor shield,33,poor,poor,poor,missing,20,$13.65,$0.00,$273.00,$13.65,$20.00,$6.35,
+MECH-0001,5mm ID bobbin,3,poor,poor,missing,missing,100,$2.00,,$200.00,$2.00,$4.00,$2.00,
+MECH-0002,"Surface-facing NEMA17 Stepper Mount, 3d printed",6,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0003,"Right-angle NEMA17 Stepper Mount, 3d printed",16,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0004,Makelangelo Pen Holder v1,4,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0005,Skycam pen holder,missing,missing,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0006,"NEMA17 Stepper mounting bracket, laser cut",37,poor,poor,poor,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0007,Delta robot 3-arm end effector,5,poor,poor,missing,missing,1,$0.50,$0.00,$0.50,$0.50,$3.00,$2.50,
+MECH-0008,delta robot bicep,15,poor,poor,missing,missing,1,$1.50,$0.00,$1.50,$1.50,$5.00,$3.50,
+MECH-0009,delta robot 3-arm servo mount,10,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0010,delta robot 4-arm end effector,7,missing,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0011,delta robot 4-arm servo mount,10,poor,poor,missing,missing,1,$0.00,$0.00,$0.00,$0.00,$8.00,$8.00,Magic box hobbies
+MECH-0012,TAMIYA 70171 3mm threaded shaft set,35,poor,poor,missing,missing,30,$6.73,$0.00,$202.00,$6.73,$8.00,$1.27,Magic box hobbies
+MECH-0013,Makelangelo Pen Holder v12,30,missing,poor,missing,missing,1,$2.00,$0.00,$2.00,$2.00,$25.00,$23.00,
+MECH-0014,HOG gimbal inner,5,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0015,HOG gimbal outer,5,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0016,HOG servo mount,10,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0017,HOG hemisphere,5,poor,poor,missing,missing,1,,,$0.00,$0.00,,$0.00,
+MECH-0018,HOG drive printable parts,20,poor,poor,missing,missing,1,$12.50,$0.00,$12.50,$12.50,$25.00,$12.50,
+MECH-0019,Spool of white thread,25?,poor,poor,missing,missing,144,$0.13,$0.00,$18.55,$0.13,$1.50,$1.37,http://www.aliexpress.com/snapshot/216681144.html
+MECH-0020,Makelangelo 2 Box,50?,missing,missing,missing,missing,1,$2.00,$0.00,$2.00,$2.00,$25.00,$23.00,
+MECH-0021,Rotary Stewart Platform Laser Cut Parts,100,missing,missing,missing,missing,1,$3.00,$0.00,$3.00,$3.00,$20.00,$17.00,
+MOT-0001,Continuous servo,58,poor,poor,missing,missing,5,$6.00,$0.00,$30.00,$6.00,$10.00,$4.00,
+MOT-0002,180 degree servo,58,poor,poor,missing,missing,5,$6.00,$0.00,$30.00,$6.00,$10.00,$4.00,
+MOT-0003,NEMA17 12v0.3a Stepper Motor,237,poor,poor,missing,missing,100,$10.95,$50,$1145.00,$11.45,$12.00,$0.55,LDO Motors
+MOT-0004,5v0.3a DC motor,20,poor,poor,missing,missing,5,$3.80,$0.00,$19.00,$3.80,$5.00,$1.20,Lee's
+ROB-0001,CanDo Line Following Robot,323,poor,poor,missing,missing,1,$50.00,$0.00,$50.00,$50.00,$75.00,$25.00,
+ROB-0002,Makelangelo Drawbot,825,poor,ok,poor,missing,1,$80.00,$0.00,$80.00,$80.00,$150.00,$70.00,
+ROB-0003,Indoor Skycam,1650,poor,poor,missing,missing,1,$160.00,$0.00,$160.00,$160.00,$300.00,$140.00,
+ROB-0004,Inverted Stewart Platform,2500,terrible,missing,missing,missing,1,$240.00,$0.00,$240.00,$240.00,$450.00,$210.00,
+ROB-0005,3-arm Delta Robot,missing,poor,missing,missing,missing,1,$50.00,$0.00,$50.00,$50.00,$100.00,$50.00,
+ROB-0006,Makelangelo 2,950,poor,missing,missing,missing,1,$80.00,$0.00,$80.00,$80.00,$250.00,$170.00,
+ROB-0007,DIY Makelangelo 2,950,poor,missing,missing,missing,1,$80.00,$0.00,$80.00,$80.00,$200.00,$120.00,
+ROB-0008,4-arm Delta Robot,missing,poor,missing,missing,missing,1,$70.00,$0.00,$70.00,$70.00,$125.00,$55.00,
+ROB-0009,HOG Drive,missing,poor,missing,missing,missing,1,$27.20,$0.00,$27.20,$27.20,$50.00,$22.80,
+ROB-0010,Rotary Stewart Platform,450,poor,poor,missing,missing,1,,$0.00,$0.00,$0.00,$250.00,$250.00,
