@@ -35,20 +35,6 @@ if(count($user->addresses)) {
 echo "<p><input class='btn' type='submit' name='add-address-now' value='Save &amp; add address'></p>";
 end_set();
 
-/*
-if(count($user->orders)) {
-	start_set("Orders");
-	echo "<table class='table table-condensed'>
-	<thead><tr><th>#</th><th>When</th><th class='text-right'>$</th><th>Status</th></tr></thead>
-	<tbody>";
-	foreach($user->orders as $v) {
-		$o=new Order($v);
-		echo "<tr><td><a href='".SITE_URL."/order/update/".$v."'>".$v."</a><td>".$o->created_on."</td></td><td class='text-right'>$".number_format($o->total,2)."</td><td>".$o->status."</td></tr>";
-	}
-	echo "</tbody></table>";
-	end_set();
-}
-*/
 form_begin_action();
 form_save();
 form_end_action();

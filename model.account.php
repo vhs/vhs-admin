@@ -1,6 +1,5 @@
 <?php
 require_once "model.php";
-//require_once "model.order.php";
 require_once "model.address.php";
 require_once "model.account_address.php";
 
@@ -8,7 +7,6 @@ require_once "model.account_address.php";
 class Account extends Model {
 	function __construct($id=0) {
 		$this->addresses=array();
-//		$this->orders=array();
 		parent::__construct($id);
 	}
 
@@ -19,7 +17,6 @@ class Account extends Model {
 	function load($id=0) {
 		parent::load($id);
 		$this->load_addresses();
-//		$this->load_orders();
 	}
 
 
@@ -102,16 +99,5 @@ class Account extends Model {
 		}
 		trigger_error("Address doesn't exist?!");
 	}
-
-  /*
-	// one account contains several orders
-	function load_orders() {
-		$this->orders=array();
-		$r=q("SELECT id FROM `order` WHERE customer_account_id='".$this->id."'");
-		while($row=mysqli_fetch_row($r)) {
-			$this->orders[]=$row[0];
-		}
-	}
-*/
 }
 ?>

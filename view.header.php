@@ -5,16 +5,11 @@ if( !isset($_SESSION['account']) || $_SESSION['account']['id']==0 ) {
 } else {
   $links=array(
     array("url"=>SITE_URL."/#","name"=>"Admin",'submenu'=>array(
-      //array("url"=>SITE_URL."/order/","name"=>"Orders"),
       array("url"=>SITE_URL."/account/list","name"=>"Accounts",
       ),
     )),
   );
   $links[]=array("url"=>SITE_URL."/#","name"=>"Me",'submenu'=>array(
-    /*
-    array("url"=>SITE_URL."/order/my_cart","name"=>"My Cart"),
-    array("url"=>SITE_URL."/order/checkout","name"=>"Checkout"),
-    */
     array("url"=>SITE_URL."/account/my_account","name"=>"My Account"),
     array("url"=>SITE_URL."/account/logout","name"=>"Logout"),
   ));

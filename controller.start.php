@@ -1,6 +1,5 @@
 <?php
 require_once "controller.php";
-require_once "model.inventory.php";
 
 class Start_Controller extends Controller {
 	function begin() {
