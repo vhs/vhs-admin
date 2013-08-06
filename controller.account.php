@@ -85,7 +85,7 @@ class Account_Controller extends Controller {
 		}
 
 		require_once "view.header.php";
-		require_once "view.account.login.php";
+		require_once "view.account_login.php";
 		require_once "view.footer.php";
 	}
 
@@ -112,7 +112,7 @@ class Account_Controller extends Controller {
 		if(isset($_SESSION['db_version'])) unset($_SESSION['db_version']);
 		if(isset($_SESSION['tables'])) unset($_SESSION['tables']);
 		require_once "view.header.php";
-		require_once "view.account.logout.php";
+		require_once "view.account_logout.php";
 		require_once "view.footer.php";
 	}
 
