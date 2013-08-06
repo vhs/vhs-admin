@@ -2,6 +2,7 @@
 require_once "model.php";
 require_once "model.address.php";
 require_once "model.account_address.php";
+require_once "model.badge.php";
 require_once "model.account_badge.php";
 
 
@@ -106,7 +107,7 @@ class Account extends Model {
 	// one account contains several addresses
 	function load_badges() {
 		$this->badges=array();
-		$r=q("SELECT id FROM `account_badges` WHERE account_id='".$this->id."' AND deleted='no'");
+		$r=q("SELECT id FROM `account_badge` WHERE account_id='".$this->id."' AND deleted='no'");
 		while($row=mysqli_fetch_row($r)) {
 			$this->badges[]=new Account_Badge($row[0]);
 		}

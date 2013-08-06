@@ -78,3 +78,7 @@ width: 50px;
 	margin:10px 5px 5px 5px;
 	display:block;
 }
+
+fieldset {
+	margin-bottom:15px;
+}
