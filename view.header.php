@@ -5,8 +5,9 @@ if( !isset($_SESSION['account']) || $_SESSION['account']['id']==0 ) {
 } else {
   $links=array(
     array("url"=>SITE_URL."/#","name"=>"Admin",'submenu'=>array(
-      array("url"=>SITE_URL."/account/list","name"=>"Accounts"),
-      array("url"=>SITE_URL."/badge/list","name"=>"Badges"),
+      array("url"=>SITE_URL."/finance","name"=>"Finances"),
+      array("url"=>SITE_URL."/account","name"=>"Accounts"),
+      array("url"=>SITE_URL."/badge","name"=>"Badges"),
     )),
   );
   $links[]=array("url"=>SITE_URL."/#","name"=>"Me",'submenu'=>array(

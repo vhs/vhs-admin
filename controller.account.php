@@ -128,10 +128,6 @@ class Account_Controller extends Controller {
 	}
 
 
-	function read() {
-	}
-
-
 	function update($id=0) {
 		if($id==0 || $id!=Account_Controller::get_id()) {
 			Account_Controller::security_check('Account','Update');
@@ -154,9 +150,6 @@ class Account_Controller extends Controller {
 		require_once "view.my_account.php";
 		require_once "view.footer.php";
 	}
-
-
-	function delete() {}
 
 
     function add_address($account_id=0) {
