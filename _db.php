@@ -175,7 +175,13 @@ function qupdate() {
   // only do this once per login or on special request
   if(isset($_SESSION['db_version'])) return;
   // what was the last patch applied?
-  $last_version=intval(qone("SELECT `config_value` FROM `config` WHERE `config_key`='version' LIMIT 1"));
+  $r=q("SHOW TABLES");
+  if(mysqli_num_rows($r)==0) {
+    $last_version=0;
+  } else {
+    $last_version=intval(qone("SELECT `config_value` FROM `config` WHERE `config_key`='version' LIMIT 1"));
+  }
+
   //echo "last version = $last_version<br>";
   // look for newer patches in sequence
 

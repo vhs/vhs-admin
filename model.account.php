@@ -2,6 +2,7 @@
 require_once "model.php";
 require_once "model.address.php";
 require_once "model.account_address.php";
+require_once "model.account_badge.php";
 
 
 class Account extends Model {
@@ -17,6 +18,7 @@ class Account extends Model {
 	function load($id=0) {
 		parent::load($id);
 		$this->load_addresses();
+		$this->load_badges();
 	}
 
 
@@ -98,6 +100,16 @@ class Account extends Model {
 			}
 		}
 		trigger_error("Address doesn't exist?!");
+	}
+
+
+	// one account contains several addresses
+	function load_badges() {
+		$this->badges=array();
+		$r=q("SELECT id FROM `account_badges` WHERE account_id='".$this->id."' AND deleted='no'");
+		while($row=mysqli_fetch_row($r)) {
+			$this->badges[]=new Account_Badge($row[0]);
+		}
 	}
 }
 ?>

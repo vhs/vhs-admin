@@ -17,6 +17,14 @@ class Account_Controller extends Controller {
 			redirect(SITE_URL."/account/create");
 		}
 		Account_Controller::security_check('Account','List');
+
+		$all_accounts=array();
+		$r=q("SELECT id FROM `account` ORDER BY name");
+		while($row=mysqli_fetch_row($r)) {
+			$all_accounts[]=new Account($row[0]);
+		}
+		mysqli_free_result($r);
+
 		require_once "view.header.php";
 		require_once "view.account_list.php";
 		require_once "view.footer.php";
