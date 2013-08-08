@@ -144,6 +144,9 @@ class Account_Controller extends Controller {
 		if(isset($_POST['add-address-now'])) {
 			redirect(SITE_URL."/account/add_address/$id");
 		}
+		if(isset($_POST['add-badge-now'])) {
+			redirect(SITE_URL."/account/add_badge/$id");
+		}
 
 		require_once "view.header.php";
 		$user->load();
@@ -152,8 +155,27 @@ class Account_Controller extends Controller {
 	}
 
 
+    function add_badge($account_id=0) {
+		Account_Controller::security_check('Account','Update');
+    	if($account_id==0) $account_id=Account_Controller::get_id();
+	    $badge=new Account_Badge();
+	    $user=new Account($account_id);
+	    if(isset($_POST['save-now'])) {
+	    	$badge->badge_id=post('add-badge-id');
+	    	$badge->account_id=$account_id;
+	    	$badge->created_by=$_SESSION['account']['id'];
+	    	$badge->save();
+	    	notice("Badge added.",'success');
+	    	redirect(SITE_URL."/account/my_account/");
+	    }
+		require_once "view.header.php";
+	    require_once "view.account_edit_badge.php";
+		require_once "view.footer.php";
+    }
+
+
     function add_address($account_id=0) {
-		Account_Controller::security_check('Address','Update');
+		Account_Controller::security_check('Account','Update');
     	if($account_id==0) $account_id=Account_Controller::get_id();
 	    $address=new Address();
 	    if(isset($_POST['save-now'])) {

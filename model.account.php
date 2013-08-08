@@ -108,9 +108,18 @@ class Account extends Model {
 	function load_badges() {
 		$this->badges=array();
 		$r=q("SELECT id FROM `account_badge` WHERE account_id='".$this->id."' AND deleted='no'");
+		echo "badges = ".mysqli_num_rows($r);
 		while($row=mysqli_fetch_row($r)) {
 			$this->badges[]=new Account_Badge($row[0]);
 		}
+	}
+
+
+	function has_badge($badge_id) {
+		foreach( $this->badges as $b) {
+			if( $b->badge_id == $badge_id ) return true;
+		}
+		return false;
 	}
 }
 ?>

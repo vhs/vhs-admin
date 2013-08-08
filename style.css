@@ -82,3 +82,11 @@ width: 50px;
 fieldset {
 	margin-bottom:15px;
 }
+
+.badge_container {
+	text-align:center;
+}
+.img-badge {
+	width:100px;
+	height:100px;
+}

@@ -19,8 +19,8 @@ define('LEGAL_NAME','Vancouver Hack Space');
 
 define('PASSWORD_SALT','Q@#(RJasdfj8');
 
-define('UPLOADS_PATH',SITE_PATH."uploads");
-define('UPLOADS_URL',SITE_URL."uploads");
+define('UPLOADS_PATH',SITE_PATH."/uploads");
+define('UPLOADS_URL',SITE_URL."/uploads");
 
 define('DEFAULT_CONTROLLER','welcome');
 
